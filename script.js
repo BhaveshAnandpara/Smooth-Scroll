@@ -33,7 +33,7 @@ for(let i = 0 ; i < 5 ; i++){
 
 
         const material = new THREE.MeshBasicMaterial({
-            map : textureLoader.load(`/photographs/${i}.jpg`)
+            map : textureLoader.load(`/dist/${i}.jpg`)
         })
     
         const img = new THREE.Mesh(geomerty , material)
