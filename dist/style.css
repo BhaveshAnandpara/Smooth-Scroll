@@ -1,0 +1,46 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body
+{
+    height: 100vh;
+    font-family: 'Outfit', sans-serif;
+    color: #f1f1f1;
+}
+
+.webgl
+{
+
+    top: 0;
+    left: 0;
+    outline: none;
+
+}
+
+.container{
+
+    position: absolute;
+    display: grid;
+    text-align: center;
+    align-items: center;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+
+}
+
+h1 {
+
+    font-size: 6rem;
+    margin-left: 10vw;
+    font-weight: lighter;
+    opacity: 1;
+    margin: 0%;
+    font-family: 'Gideon Roman', cursive;
+
+}
+
